@@ -19,4 +19,4 @@ python run_main_test.py
 
 
 ## 画图
-[XKCD 画图](https://github.com/CYang828/python-speedy/tree/master/notebookds)
+[XKCD 画图](https://github.com/CYang828/python-speedy/blob/master/notebookds/plotting_results.ipynb)

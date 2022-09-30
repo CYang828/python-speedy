@@ -10,7 +10,13 @@ This is the code which belongs to a blog post you can find here.
 - Python 环境
 - Docker
 
-## 快速使用:
+## 快速使用
 ```bash
 python run_main_test.py
 ```
+
+[C++ 测试使用方法](https://github.com/CYang828/python-speedy/tree/master/k_mer_in_C)
+
+
+## 画图
+[XKCD 画图](https://github.com/CYang828/python-speedy/tree/master/notebookds)

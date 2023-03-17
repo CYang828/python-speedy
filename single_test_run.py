@@ -51,7 +51,8 @@ def K_mer(k: int) -> None:
 def run_test(k: int) -> None:
     start_time = time.time()
     K_mer(k)
-    print(f"{(time.time() - start_time):.4f}秒")
+    # print(f"{(time.time() - start_time):.4f}秒")
+    print("{:.4f}秒".format(time.time() - start_time))
 
 
 def main():

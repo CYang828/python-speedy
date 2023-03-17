@@ -5,7 +5,7 @@
 
 ## Build
 ```bash
-g++ +o k_mer k_mer.c
+g++ -o k_mer k_mer.c
 ```
 
 ## Run

@@ -1,7 +1,9 @@
-# C++ 实现的 DNA K-mers
+# C++ Run DNA K-mers
 
-## 依赖
-- g++ 编译器 
+[中文](README-CHS.md)
+
+## Depndencies
+- g++ compiler
 
 ## Build
 ```bash

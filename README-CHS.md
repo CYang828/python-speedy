@@ -14,8 +14,9 @@
 使用 Docker 测试 Python 不同版本的性能，并且在相同任务上，与 C++ 进行对比。
 
 <p align="center"> 
-<img src="assets/3_extrapolated.png" height="480">
+<img src="assets/3_extrapolated.png" width="90%" height="45%" >
 </p> 
+
 
 ## 测试任务（K-mers） 基因组组装算法 DNA K-mers
 

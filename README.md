@@ -16,7 +16,7 @@
 Use Docker to test the performance of different versions of Python and compare it to C++ on the same task.
 
 <p align="center"> 
-<img src="assets/3_extrapolated.png" height="480">
+<img src="assets/3_extrapolated.png" width="90%" height="45%" >
 </p> 
 
 ## Dependencies

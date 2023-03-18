@@ -2,7 +2,6 @@
 
 [中文](README-CHS.md)
 
-
 - [Python Performance Test From 3.5 To 3.11](#python-performance-test-from-35-to-311)
   - [Dependencies](#dependencies)
   - [Benchmark Test Task (K-mers)](#benchmark-test-task-k-mers)
@@ -15,9 +14,16 @@
 
 Use Docker to test the performance of different versions of Python and compare it to C++ on the same task.
 
+> **WARNING**
+> 
+> The Optimized C++ version (-O3) (**0.336514**) acticutally is way more faster than the C++ -O (**11.1504 seconds** ) in the following example. Thus C++ is still the best choice for this task and it is ~110x times faster than Python 3.11.
+
+The following figure shows the performance of different versions of Python and C++ (**Non-Optimized**) on the same task. The optimized C++ version is not included in the following figure.
+
 <p align="center"> 
 <img src="assets/3_extrapolated.png" width="90%" height="45%" >
 </p> 
+
 
 ## Dependencies
 - Python environment
@@ -65,6 +71,8 @@ python run_main_test.py
 ## Run the C++ version of Task
 - [C++ Performance Test](k_mer_in_C/README.md)
 
+> IF you want to run the C++ version of Task, you need to install the g++ compiler.
+ 
 
 ## Create the Figures
 - [Matplot with XKCD theame ](notebookds/plotting_results.ipynb)

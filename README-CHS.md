@@ -13,6 +13,9 @@
 
 使用 Docker 测试 Python 不同版本的性能，并且在相同任务上，与 C++ 进行对比。
 
+> 注意:
+> 优化后的 C++ 版本 (-O3) 的性能是 Python 3.11 版本的 110 倍, 它只需要 0.336514 秒, 而不是图片所显示的 11.1504 秒。 下图用来比较的是没有优化的 C++ 版本 (-O1)。
+
 <p align="center"> 
 <img src="assets/3_extrapolated.png" width="90%" height="45%" >
 </p> 

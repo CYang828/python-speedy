@@ -1,11 +1,11 @@
 import subprocess
 import os
 
-NEW_IMAGE = {"name": "Python 3.11", "image": "python:3.11-rc-slim"}
+NEW_IMAGE = {"name": "Python 3.11", "image": "python:3.11-slim"}
 
 TEST_IMAGES = [
-    {"name": "Python 3.5", "image": "python:3.7-slim"},
-    {"name": "Python 3.6", "image": "python:3.7-slim"},
+    {"name": "Python 3.5", "image": "python:3.5-slim"},
+    {"name": "Python 3.6", "image": "python:3.6-slim"},
     {"name": "Python 3.7", "image": "python:3.7-slim"},
     {"name": "Python 3.8", "image": "python:3.8-slim"},
     {"name": "Python 3.9", "image": "python:3.9-slim"},

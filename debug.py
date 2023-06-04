@@ -1,5 +1,6 @@
 import time
 import argparse
+import random
 
 def K_mer(k: int) -> None:
     def convert(c):
@@ -11,6 +12,10 @@ def K_mer(k: int) -> None:
             return "T"
         if c == "T":
             return "A"
+
+    if k < 1:
+        print("k 必须是一个正数!")
+        return
 
     print("开始")
 
